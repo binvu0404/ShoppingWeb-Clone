@@ -1,0 +1,102 @@
+@import 'normalize.css';
+
+:root {
+    --primary: orange;
+    --black-color: black;
+    --text-color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    text-rendering: optimizeSpeed;
+}
+
+.grid {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.grid__col-4 {
+    padding: 12px;
+    width: 25%;
+}
+
+.grid__col-3 {
+    padding: 12px;
+    width: 33.3332%;
+}
+
+.grid__col-2 {
+    padding: 12px;
+    width: 50%;
+}
+
+.grid__col-65 {
+    width: 65%;
+}
+
+.grid__col-75 {
+    width: 75%;
+}
+
+.grid__col-25 {
+    width: 25%;
+}
+
+.grid__col-35 {
+    width: 35%;
+}
+
+.grid__col-15 {
+    width: 15%;
+}
+
+@media (max-width: 1370px) {
+    .grid__row {
+        width: 80%;
+    }
+}
+
+@media (max-width: 930px) {
+    .grid__col-sm-4{
+        width: 25%;
+    }
+}
+
+@media (max-width: 730px) {
+    .grid__row {
+        width: 90%;
+    }
+    .grid__col-sm-40 {
+        width: 35%;
+    }
+    .grid__col-sm-2{
+        width: 50%;
+    }
+}
+
+@media (max-width: 460px) {
+    .grid__col-1-mb{
+        width: 100%;
+    }
+}

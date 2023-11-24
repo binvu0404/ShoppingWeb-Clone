@@ -1,0 +1,80 @@
+.inner {
+    margin-top: 7%;
+    padding-bottom: 40px;
+
+    .title {
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 4rem;
+        line-height: 4rem;
+        font-weight: 500;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.news-post {
+    margin-top: 16px;
+
+    .post__img-block {
+        width: 100%;
+        .post__img {
+            width: 100%;
+        }
+    }
+
+    .post__content {
+        text-align: center;
+    }
+
+    .post__title {
+        text-decoration: none;
+        font-size: 2.1rem;
+        line-height: 2.7rem;
+        padding-top: 4px;
+        color: #222;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+    .post__time {
+        margin-top: 10px;
+        margin-bottom: 14px;
+        font-size: 1.4rem;
+        color: #555;
+    }
+
+    .post__info {
+        font-size: 1.5rem;
+        color: #444;
+        line-height: 2.2rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        margin-bottom: 18px;
+    }
+}
+
+.post__footer {
+    display: flex;
+    justify-content: center;
+
+    .post__button {
+        text-decoration: none;
+        border: 1px solid #222;
+        border-radius: 3px;
+        color: #222;
+        padding: 10px 16px;
+        align-items: center;
+        font-weight: 500;
+        transition: all linear 0.1s;
+    }
+
+    .post__button:hover {
+        background-color: #6868685a;
+    }
+}       
